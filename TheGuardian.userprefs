@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{3D09941D-F86C-456A-9DDB-1A6FEDCF274F}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Model/GuardianManager.cs">
+    <Files>
+      <File FileName="Model/GuardianManager.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TheGuardian" expanded="True">
+            <Node name="TheGuardian" expanded="True">
+              <Node name="Model" expanded="True">
+                <Node name="GuardianManager.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.TheGuardian.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.576D376D-BB08-4E23-AAF4-787865EC593D">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.TheGuardian.iOS>
+  <MultiItemStartupConfigurations />
+</Properties>
