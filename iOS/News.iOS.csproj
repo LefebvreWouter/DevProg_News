@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
-    <ProjectGuid>{3D09941D-F86C-456A-9DDB-1A6FEDCF274F}</ProjectGuid>
+    <ProjectGuid>{31A250C5-BA76-432E-A31B-26ED7F2D5B0A}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Exe</OutputType>
-    <RootNamespace>TheGuardian.iOS</RootNamespace>
-    <AssemblyName>TheGuardian.iOS</AssemblyName>
+    <RootNamespace>News.iOS</RootNamespace>
+    <AssemblyName>News.iOS</AssemblyName>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
@@ -23,7 +23,7 @@
     <MtouchDebug>true</MtouchDebug>
     <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
     <MtouchFastDev>true</MtouchFastDev>
-    <IOSDebuggerPort>37675</IOSDebuggerPort>
+    <IOSDebuggerPort>50626</IOSDebuggerPort>
     <MtouchLink>None</MtouchLink>
     <MtouchArch>x86_64</MtouchArch>
     <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
@@ -71,7 +71,7 @@
     <MtouchFastDev>true</MtouchFastDev>
     <MtouchFloat32>true</MtouchFloat32>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
-    <IOSDebuggerPort>18116</IOSDebuggerPort>
+    <IOSDebuggerPort>32082</IOSDebuggerPort>
     <MtouchLink>SdkOnly</MtouchLink>
     <MtouchArch>ARM64</MtouchArch>
     <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
@@ -96,9 +96,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TheGuardian.csproj">
-      <Project>{63CD7357-01C6-4937-BC31-AEC5D4A1B089}</Project>
-      <Name>TheGuardian</Name>
+    <ProjectReference Include="..\News.csproj">
+      <Project>{99591A92-078C-4650-83FB-A5C618527290}</Project>
+      <Name>News</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

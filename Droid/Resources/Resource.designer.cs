@@ -1,4 +1,4 @@
-﻿namespace TheGuardian.Droid.Resources
+﻿namespace News.Droid.Resources
 {
 
 

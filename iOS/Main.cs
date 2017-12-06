@@ -5,7 +5,7 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
-namespace TheGuardian.iOS
+namespace News.iOS
 {
     public class Application
     {

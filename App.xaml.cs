@@ -1,6 +1,6 @@
 ﻿using Xamarin.Forms;
 
-namespace TheGuardian
+namespace News
 {
     public partial class App : Application
     {
@@ -8,7 +8,7 @@ namespace TheGuardian
         {
             InitializeComponent();
 
-            MainPage = new TheGuardianPage();
+            MainPage = new NewsPage();
         }
 
         protected override void OnStart()

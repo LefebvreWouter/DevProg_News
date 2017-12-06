@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{88BB3053-A622-4DDC-93C6-6DA54D4C192F}</ProjectGuid>
+    <ProjectGuid>{84E01119-0EBD-4FB7-A03F-29415BD5FC27}</ProjectGuid>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
-    <RootNamespace>TheGuardian.Droid</RootNamespace>
-    <AssemblyName>TheGuardian.Droid</AssemblyName>
+    <RootNamespace>News.Droid</RootNamespace>
+    <AssemblyName>News.Droid</AssemblyName>
     <TargetFrameworkVersion>v7.1</TargetFrameworkVersion>
     <AndroidApplication>True</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
@@ -108,9 +108,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TheGuardian.csproj">
-      <Project>{63CD7357-01C6-4937-BC31-AEC5D4A1B089}</Project>
-      <Name>TheGuardian</Name>
+    <ProjectReference Include="..\News.csproj">
+      <Project>{99591A92-078C-4650-83FB-A5C618527290}</Project>
+      <Name>News</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleDisplayName</key>
-	<string>TheGuardian</string>
+	<string>News</string>
 	<key>CFBundleName</key>
-	<string>TheGuardian</string>
+	<string>News</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.companyname.TheGuardian</string>
+	<string>com.companyname.News</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
