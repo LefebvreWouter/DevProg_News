@@ -40,7 +40,6 @@
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Model\NewsManager.cs" />
-    <Compile Include="Model\GetSourcesNYT.cs" />
     <Compile Include="Model\GetSourcesBI.cs" />
     <Compile Include="Model\GetSourcesTimes.cs" />
     <Compile Include="Model\GetSourcesWired.cs" />

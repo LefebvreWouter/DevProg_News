@@ -49,11 +49,11 @@
 /Users/wouterlefebvre/Projects/DevProg_News/iOS/bin/iPhoneSimulator/Debug/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll
 /Users/wouterlefebvre/Projects/DevProg_News/iOS/bin/iPhoneSimulator/Debug/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
 /Users/wouterlefebvre/Projects/DevProg_News/iOS/bin/iPhoneSimulator/Debug/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/wouterlefebvre/Projects/DevProg_News/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/ibtool/_BundleResourceWithLogicalName.items
-/Users/wouterlefebvre/Projects/DevProg_News/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/actool/_PartialAppManifest.items
-/Users/wouterlefebvre/Projects/DevProg_News/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/actool/_BundleResourceWithLogicalName.items
-/Users/wouterlefebvre/Projects/DevProg_News/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/optimized/
 /Users/wouterlefebvre/Projects/DevProg_News/iOS/obj/iPhoneSimulator/Debug/News.iOS.csprojResolveAssemblyReference.cache
 /Users/wouterlefebvre/Projects/DevProg_News/iOS/obj/iPhoneSimulator/Debug/News.iOS.csproj.CoreCompileInputs.cache
 /Users/wouterlefebvre/Projects/DevProg_News/iOS/obj/iPhoneSimulator/Debug/News.iOS.exe
 /Users/wouterlefebvre/Projects/DevProg_News/iOS/obj/iPhoneSimulator/Debug/News.iOS.pdb
+/Users/wouterlefebvre/Projects/DevProg_News/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/ibtool/_BundleResourceWithLogicalName.items
+/Users/wouterlefebvre/Projects/DevProg_News/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/actool/_PartialAppManifest.items
+/Users/wouterlefebvre/Projects/DevProg_News/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/actool/_BundleResourceWithLogicalName.items
+/Users/wouterlefebvre/Projects/DevProg_News/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/optimized/

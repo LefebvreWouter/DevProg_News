@@ -12,6 +12,8 @@ namespace News
             InitializeComponent();
             LoadSourcesBI();
             LoadSourcesNYT();
+            LoadSourcesWired();
+            GetSourcesTime();
         }
 
         async void LoadSourcesBI()
@@ -26,11 +28,33 @@ namespace News
         async void LoadSourcesNYT()
         {
             GetSources sourceNYT = new GetSources();
-            sourceNYT = await NewsManager.GetSourcesNYT();
+            sourceNYT = await NewsManager.GetSourcesBI();
             foreach(Article article in sourceNYT.articles)
             {
                 Debug.WriteLine(article.title);
             }
         }
+        async void LoadSourcesWired()
+        {
+            GetSources sourceWired = new GetSources();
+            sourceWired = await NewsManager.GetSourcesWired();
+            foreach(Article article in sourceWired.articles)
+            {
+                Debug.WriteLine((article.title));
+            }
+        }
+
+
+        async void GetSourcesTime()
+        {
+            GetSources sourceTime = new GetSources();
+            sourceTime = await NewsManager.GetSourcesTime();
+            foreach (Article article in sourceTime.articles)
+            {
+                Debug.WriteLine((article.title));
+            }
+        }
     }
+
+
 }

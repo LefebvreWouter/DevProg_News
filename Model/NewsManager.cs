@@ -23,7 +23,7 @@ namespace News.Model
             return alldata;
         }
 
-        public async static Task<List<GetSources>> GetSourcesTime()
+        public async static Task<GetSources> GetSourcesTime()
         {
             HttpClient client = new HttpClient();
             string urlTime = ("https://newsapi.org/v2/top-headlines?sources=time&apiKey=c99873ebeaf54194bb8c89dc97c53f0a");
@@ -33,12 +33,12 @@ namespace News.Model
             {
                 return null;
             }
-            List<GetSources> alldata = JsonConvert.DeserializeObject<List<GetSources>>(resultTime);
+            GetSources alldata = JsonConvert.DeserializeObject<GetSources>(resultTime);
             return alldata;
 
         }
 
-        public async static Task<List<GetSources>> GetSourcesWired()
+        public async static Task<GetSources> GetSourcesWired()
         {
             HttpClient client = new HttpClient();
             string urlwired = ("https://newsapi.org/v2/top-headlines?sources=wired&apiKey=c99873ebeaf54194bb8c89dc97c53f0a");
@@ -48,12 +48,12 @@ namespace News.Model
             {
                 return null;
             }
-            List<GetSources> alldata = JsonConvert.DeserializeObject<List<GetSources>>(resultWired);
+            GetSources alldata = JsonConvert.DeserializeObject<GetSources>(resultWired);
             return alldata;
 
         }
 
-        public async static Task<List<GetSources>> GetSourcesNYT()
+        public async static Task<GetSources> GetSourcesNYT()
         {
             HttpClient client = new HttpClient();
             string urlNYT = ("https://newsapi.org/v2/top-headlines?sources=the-new-york-times&apiKey=c99873ebeaf54194bb8c89dc97c53f0a");
@@ -63,13 +63,9 @@ namespace News.Model
             {
                 return null;
             }
-            List<GetSources> alldata = JsonConvert.DeserializeObject<List<GetSources>>(resultNYT);
+            GetSources alldata = JsonConvert.DeserializeObject<GetSources>(resultNYT);
             return alldata;
 
-        }
-
-        public NewsManager()
-        {
         }
     }
 }
