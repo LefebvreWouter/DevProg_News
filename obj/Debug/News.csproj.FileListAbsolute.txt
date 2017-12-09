@@ -17,3 +17,4 @@
 /Users/wouterlefebvre/Projects/DevProg_News/bin/Debug/Newtonsoft.Json.xml
 /Users/wouterlefebvre/Projects/DevProg_News/obj/Debug/News.dll
 /Users/wouterlefebvre/Projects/DevProg_News/obj/Debug/News.pdb
+/Users/wouterlefebvre/Projects/DevProg_News/obj/Debug/News.View.OverviewPage.xaml.g.cs

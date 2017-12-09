@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Diagnostics;
 using News.Model;
+using News.View;
 using Xamarin.Forms;
 
 namespace News
@@ -53,6 +54,16 @@ namespace News
             {
                 Debug.WriteLine((article.title));
             }
+        }
+
+        void Clicked_Wired(object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new OverviewPage("Wired"));
+        }
+
+        void Clicked_NYT(object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new OverviewPage("NYT"));
         }
     }
 
