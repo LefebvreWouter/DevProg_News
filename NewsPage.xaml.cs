@@ -79,7 +79,7 @@ namespace News
 
         void Handle_SearchButtonPressed(object sender, System.EventArgs e)
         {
-               Navigation.PushAsync(new NewsArticlesBySearch(SearchBar.Text));
+               //Navigation.PushAsync(new NewsArticlesBySearch(SearchBar.Text));
         }
     }
 
