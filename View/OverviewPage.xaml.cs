@@ -7,26 +7,45 @@ namespace News.View
 {
     public partial class OverviewPage : ContentPage
     {
-        public OverviewPage(string NewsPageType)
+        public OverviewPage(string NewsPageType) // GetSources source
         {
             InitializeComponent();
-            GetNewsPage(NewsPageType);
+            GetNewsHeadLine(NewsPageType);
+            //source.articles.title;
         }
 
-        public async void GetNewsPage(string pNewsPageType)
+        public async void GetNewsHeadLine(string pNewsHeadLine)
         {
-            GetSources sourceWired = new GetSources();
+            GetSources source = new GetSources();
 
-            if (pNewsPageType == "Wired")
+            if (pNewsHeadLine == "Wired")
             {
-                sourceWired = await NewsManager.GetSourcesWired();
-                lvwNews.ItemsSource = sourceWired.articles;
+                source = await NewsManager.GetSourcesWired();
+                lvwNews.ItemsSource = source.articles;
             }
-            else if (pNewsPageType == "NYT")
+            else if (pNewsHeadLine == "NYT")
             {
-                sourceWired = await NewsManager.GetSourcesNYT();
-                lvwNews.ItemsSource = sourceWired.articles;
+                source = await NewsManager.GetSourcesNYT();
+                lvwNews.ItemsSource = source.articles;
             }
+            else if (pNewsHeadLine == "Time" )
+            {
+                source = await NewsManager.GetSourcesTime();
+                lvwNews.ItemsSource = source.articles;
+            }
+            else if (pNewsHeadLine == "BI")
+            {
+                source = await NewsManager.GetSourcesBI();
+                lvwNews.ItemsSource = source.articles;
+            }
+        }
+
+        void Handle_ItemSelected(object sender, Xamarin.Forms.SelectedItemChangedEventArgs e)
+        {
+            Article selectedArticle = lvwNews.SelectedItem as Article;
+            Navigation.PushAsync(new NewsArticlePage(selectedArticle));
+            // navigeren naar volgend pagina, wat geef je mee in de constructor (paramaters) : lvwNews.SelectedItem as GetSources
+            // andere xaml.cs zet je in de constructor
         }
     }
 }

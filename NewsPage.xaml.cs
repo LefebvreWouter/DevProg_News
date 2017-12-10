@@ -65,6 +65,21 @@ namespace News
         {
             Navigation.PushAsync(new OverviewPage("NYT"));
         }
+
+        void Clicked_Time(object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new OverviewPage("Time"));
+        }
+
+        void Clicked_BI(object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new OverviewPage("BI"));
+        }
+
+        void Handle_SearchButtonPressed(object sender, System.EventArgs e)
+        {
+               Navigation.PushAsync(new NewsArticlesBySearch(SearchBar.Text));
+        }
     }
 
 
