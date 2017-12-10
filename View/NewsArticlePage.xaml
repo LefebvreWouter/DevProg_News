@@ -4,7 +4,11 @@
         <StackLayout>
             <Image x:Name="imgHeadLine"></Image>
             <Label x:Name="lblTitle" Margin="10"></Label>
-            <Label x:Name="lblDescription"></Label>         
+            <Label x:Name="lblDescription"></Label> 
+            <Label x:Name="lblPublishedAt"></Label>
+            <Label x:Name="lblSource"></Label>
+            <Label x:Name="lblAuthor"></Label>
+            
         </StackLayout>
 	</ContentPage.Content>
 </ContentPage>

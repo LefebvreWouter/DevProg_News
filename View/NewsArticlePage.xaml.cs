@@ -11,8 +11,11 @@ namespace News.View
         {
             InitializeComponent();
             imgHeadLine.Source = article.urlToImage;
+            lblAuthor.Text = article.author;
+            //lblPublishedAt.DateTime = article.publishedAt;
             lblTitle.Text = article.title;
             lblDescription.Text = article.description;
+
         }
     }
 }

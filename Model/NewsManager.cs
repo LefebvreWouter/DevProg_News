@@ -67,5 +67,19 @@ namespace News.Model
             return alldata;
 
         }
+
+        public async static Task<GetSources> GetSearchQuery(string Keyword)
+        {
+            HttpClient client = new HttpClient();
+            string urlSearch = ("https://newsapi.org/v2/top-headlines?q=" + Keyword + "&apiKey=c99873ebeaf54194bb8c89dc97c53f0a");
+
+            string resultSearch = await client.GetStringAsync(urlSearch);
+            if (resultSearch == null)
+            {
+                return null;
+            }
+            GetSources alldata = JsonConvert.DeserializeObject<GetSources>(resultSearch);
+            return alldata;
+        }
     }
 }

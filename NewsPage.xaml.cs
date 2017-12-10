@@ -15,6 +15,7 @@ namespace News
             LoadSourcesNYT();
             LoadSourcesWired();
             GetSourcesTime();
+
         }
 
         async void LoadSourcesBI()
