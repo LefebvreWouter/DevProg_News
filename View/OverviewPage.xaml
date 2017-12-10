@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="News.View.OverviewPage">
 	<ContentPage.Content>
-        <ListView x:Name="lvwNews" ItemSelected = "Handle_ItemSelected">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="80"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>      
+            </Grid.RowDefinitions>
+        <Label BackgroundColor="Silver" TextColor="Black" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="Large" Grid.Row="0" Text="Overview Articles"></Label>
+        <ListView x:Name="lvwNews" ItemSelected="Handle_ItemSelected" SeparatorColor="Black" HeightRequest="800" HasUnevenRows="True" Grid.Row="1">
         <ListView.ItemTemplate>
                 <DataTemplate>
-                           <TextCell Text="{Binding title}" TextColor="Black" Detail="{Binding author}" DetailColor="Silver"/>
-
+                    <ViewCell>
+                            <Grid Margin="10">
+                                <Label Text="{Binding title}" TextColor="Black"></Label>                        
+                            </Grid>
+                    </ViewCell>
                 </DataTemplate>
         </ListView.ItemTemplate>
         </ListView>
+       </Grid>
 	</ContentPage.Content>
 </ContentPage>

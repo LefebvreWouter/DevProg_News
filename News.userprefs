@@ -1,27 +1,24 @@
 ﻿<Properties StartupConfiguration="{31A250C5-BA76-432E-A31B-26ED7F2D5B0A}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Model/NewsManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Model/GetSources.cs">
     <Files>
-      <File FileName="View/NewsArticlesBySearch.xaml.cs" Line="45" Column="13" />
-      <File FileName="View/OverviewPage.xaml.cs" Line="49" Column="10" />
-      <File FileName="View/NewsArticlesBySearch.xaml" Line="7" Column="43" />
-      <File FileName="View/OverviewPage.xaml" Line="14" Column="1" />
-      <File FileName="iOS/Main.cs" Line="17" Column="1" />
-      <File FileName="Model/NewsManager.cs" Line="71" Column="68" />
+      <File FileName="NewsPage.xaml" Line="12" Column="36" />
+      <File FileName="Model/NewsManager.cs" Line="83" Column="1" />
+      <File FileName="Model/GetSources.cs" Line="21" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="News" expanded="True">
             <Node name="News" expanded="True">
+              <Node name="Images" expanded="True" />
               <Node name="Model" expanded="True">
-                <Node name="NewsManager.cs" selected="True" />
+                <Node name="GetSources.cs" selected="True" />
               </Node>
               <Node name="View" expanded="True">
                 <Node name="NewsArticlesBySearch.xaml" expanded="True" />
                 <Node name="OverviewPage.xaml" expanded="True" />
               </Node>
             </Node>
-            <Node name="News.iOS" expanded="True" />
           </Node>
         </State>
       </Pad>
@@ -36,4 +33,5 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.News.Droid PreferredExecutionTarget="Android.Android_Accelerated_Nougat" />
 </Properties>

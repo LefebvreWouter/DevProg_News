@@ -14,13 +14,12 @@
                     <Label Grid.Row="0" BackgroundColor="Silver" TextColor="Black" FontAttributes="Bold" Text="NewsPages" FontSize="Large" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"></Label>
                     <Grid Grid.Row="1" HeightRequest="600" Margin="10,10,10,0">
                              <StackLayout>
-
+                             <SearchBar x:Name="SearchBar" Placeholder="Geef een keyword in:" SearchButtonPressed="Handle_SearchButtonPressed"></SearchBar>
                             <Button HeightRequest="80" BorderColor="Black" BorderWidth="1" BackgroundColor="Silver" TextColor="Black" Text="Wired" Margin="0,0,0,10" Clicked="Clicked_Wired"></Button>
                             <Button HeightRequest="80" BorderColor="Black" BorderWidth="1" BackgroundColor="Silver" TextColor="Black" Text="New York Times" Margin="0,0,0,10" Clicked="Clicked_NYT"></Button>
                             <Button HeightRequest="80" BorderColor="Black" BorderWidth="1" BackgroundColor="Silver" TextColor="Black" Text="Time" Margin="0,0,0,10" Clicked="Clicked_Time"></Button>
-
-                    <Button HeightRequest="80" BorderColor="Black" BorderWidth="1" BackgroundColor="Silver" TextColor="Black" Text="Business Insider" Margin="0,0,0,10" Clicked="Clicked_BI"></Button>                           
-                    <SearchBar x:Name="SearchBar" Placeholder="Geef uw tag in" SearchButtonPressed="Handle_SearchButtonPressed"></SearchBar>
+                            <Button HeightRequest="80" BorderColor="Black" BorderWidth="1" BackgroundColor="Silver" TextColor="Black" Text="Business Insider" Margin="0,0,0,10" Clicked="Clicked_BI"></Button>                           
+                    
                 </StackLayout>
 
             </Grid>

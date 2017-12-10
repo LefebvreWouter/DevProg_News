@@ -13,14 +13,18 @@ namespace News.View
             GetSearchQuery(Keyword);
         }
 
-        public  void GetSearchQuery(string keyword)
+        public async void GetSearchQuery(string keyword)
         {
             GetSources source = new GetSources();
 
-            source = NewsManager.GetSearchQuery(keyword);
-            lvwSearch.ItemsSource = source.articles;
+            source = await NewsManager.GetSearchQuery(keyword);
+            lvwSearch.ItemsSource = source.articles;    
+        }
 
-           
+        void Handle_ItemSelected(object sender, Xamarin.Forms.SelectedItemChangedEventArgs e)
+        {
+            Article selectedArticle = lvwSearch.SelectedItem as Article;
+            Navigation.PushAsync(new NewsArticlePage(selectedArticle));
         }
     }
 }
