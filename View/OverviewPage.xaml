@@ -6,13 +6,14 @@
                 <RowDefinition Height="80"></RowDefinition>
                 <RowDefinition Height="*"></RowDefinition>      
             </Grid.RowDefinitions>
-        <Label BackgroundColor="Silver" TextColor="Black" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="Large" Grid.Row="0" Text="Overview Articles"></Label>
+        <Label BackgroundColor="#2C3E50" TextColor="#FEFEFE" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="Large" Grid.Row="0" Text="News headlines"></Label>
         <ListView x:Name="lvwNews" ItemSelected="Handle_ItemSelected" SeparatorColor="Black" HeightRequest="800" HasUnevenRows="True" Grid.Row="1">
+                
         <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
-                            <Grid Margin="10">
-                                <Label Text="{Binding title}" TextColor="Black"></Label>                        
+                            <Grid Margin="10" >
+                                <Label Text="{Binding title}" TextColor="#0A1827" ></Label>                        
                             </Grid>
                     </ViewCell>
                 </DataTemplate>

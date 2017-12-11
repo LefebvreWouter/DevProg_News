@@ -16,6 +16,7 @@ namespace News.View
             lblTitle.Text = article.title;
             lblDescription.Text = article.description;
 
+
         }
     }
 }

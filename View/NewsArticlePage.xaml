@@ -3,11 +3,11 @@
 	<ContentPage.Content>
         <StackLayout> 
             <Image x:Name="imgHeadLine"></Image>
-            <Label x:Name="lblTitle" Margin="10"></Label>
-            <Label x:Name="lblDescription"></Label> 
-            <Label x:Name="lblPublishedAt"></Label>
+            <Label x:Name="lblTitle" Margin="10, 5,10,5" TextColor="#FC4349"></Label>
+            <Label x:Name="lblDescription" Margin="0, 25,0,0" TextColor="#2C3E50"></Label> 
             <Label x:Name="lblSource"></Label>
-            <Label x:Name="lblAuthor"></Label>
+            <Label x:Name="lblAuthor" Text="Author: " Margin="0, 20,0,0"></Label>
+
             
         </StackLayout>
 	</ContentPage.Content>
