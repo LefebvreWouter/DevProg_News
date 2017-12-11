@@ -3,12 +3,12 @@
 	<ContentPage.Content>
         <StackLayout> 
             <Image x:Name="imgHeadLine"></Image>
-            <Label x:Name="lblTitle" Margin="10, 5,10,5" TextColor="#FC4349"></Label>
+            <Grid BackgroundColor="#2C3E50" >
+                  <Label Margin="10, 0,10,5"  x:Name="lblTitle" TextColor="#FEFEFE"></Label>    
+            </Grid>
             <Label x:Name="lblDescription" Margin="0, 25,0,0" TextColor="#2C3E50"></Label> 
             <Label x:Name="lblSource"></Label>
-            <Label x:Name="lblAuthor" Text="Author: " Margin="0, 20,0,0"></Label>
-
-            
+            <Label x:Name="lblAuthor"  Margin="0, 20,0,0"></Label>    
         </StackLayout>
 	</ContentPage.Content>
 </ContentPage>

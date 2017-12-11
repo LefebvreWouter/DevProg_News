@@ -43,6 +43,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="Images\BI.jpeg" />
+    <EmbeddedResource Include="Images\NYT.png" />
+    <EmbeddedResource Include="Images\Time.jpeg" />
+    <EmbeddedResource Include="Images\wired1.png" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">

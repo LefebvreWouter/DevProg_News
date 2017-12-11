@@ -22,19 +22,22 @@
             <Grid Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" HeightRequest="50" BackgroundColor="#2C3E50" >
                 <Label BackgroundColor="#2C3E50" TextColor="#FEFEFE" FontAttributes="Bold" Text="News Sources" FontSize="Large" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"></Label>
             </Grid>
-            <Button Grid.Row="1" Grid.Column="0" HeightRequest="200" WidthRequest="200"  BackgroundColor="#6DBCDB" TextColor="#FEFEFE" Text="Wired"  FontSize="Medium" Margin="10, 20, 10, 20" Clicked="Clicked_Wired" BorderRadius="1" ></Button>
+
+
+            <Button Grid.Row="1" Grid.Column="0" HeightRequest="200" WidthRequest="200"  BackgroundColor="#6DBCDB" TextColor="#FEFEFE"  Text="Wired"  FontSize="Medium" Margin="10, 20, 10, 20" Clicked="Clicked_Wired" BorderRadius="1" ></Button>
             
-            <Grid Grid.Row="1" Grid.Column="1" HeightRequest="100" WidthRequest="100" BackgroundColor="Red" Margin="10, 20, 10, 20"></Grid>
+            <Grid Grid.Row="1" Grid.Column="1" HeightRequest="100" WidthRequest="100" Margin="10, 10, 10, 20"></Grid>
             <Button Grid.Row="1" Grid.Column="1" HeightRequest="100" WidthRequest="100"  BackgroundColor="#6DBCDB" TextColor="#FEFEFE" Text="New York Times"  FontSize="Medium" Margin="10, 20, 10, 20" Clicked="Clicked_NYT" BorderRadius="1" ></Button>
             
-            <Grid Grid.Row="2" Grid.Column="1" HeightRequest="200" WidthRequest="200" BackgroundColor="Red" Margin="10, 20, 10, 20"></Grid>
+            <Grid Grid.Row="2" Grid.Column="1" HeightRequest="200" WidthRequest="200"  Margin="10, 10, 10, 20"></Grid>
             <Button Grid.Row="2" Grid.Column="1" HeightRequest="200" WidthRequest="200"  BackgroundColor="#6DBCDB" TextColor="#FEFEFE" Text="Time Magazine"  FontSize="Medium" Margin="10, 20, 10, 20" Clicked="Clicked_Time" BorderRadius="1" ></Button>
             
-            <Grid Grid.Row="2" Grid.Column="0" HeightRequest="200" WidthRequest="200" BackgroundColor="Aqua" Margin="10, 20, 10, 20"></Grid>
-            <Button Grid.Row="2" Grid.Column="0" HeightRequest="200" WidthRequest="200"  BackgroundColor="#6DBCDB" TextColor="#FEFEFE" Text="business Insiser"  FontSize="Medium" Margin="10, 20, 10, 20" Clicked="Clicked_BI" BorderRadius="1" ></Button>
+            <Grid Grid.Row="2" Grid.Column="0" HeightRequest="200" WidthRequest="200"  Margin="10, 10, 10, 10"></Grid>
+            <Button Grid.Row="2" Grid.Column="0" HeightRequest="200" WidthRequest="200"  BackgroundColor="#6DBCDB" TextColor="#FEFEFE" Text="Business Insider"  FontSize="Medium" Margin="10, 20, 10, 20" Clicked="Clicked_BI" BorderRadius="1" ></Button>
 
             <Grid Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2">
-            <SearchBar x:Name="SearchBar" BackgroundColor="#2C3E50" Placeholder="Geef hier uw tekst in" ></SearchBar>
+            <SearchBar x:Name="SearchBar" BackgroundColor="#2C3E50" Placeholder="Geef hier uw tekst in" SearchButtonPressed="Handle_SearchButtonPressed" ></SearchBar>
+
             </Grid>
 
           

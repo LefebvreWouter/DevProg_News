@@ -57,3 +57,4 @@
 /Users/wouterlefebvre/Projects/DevProg_News/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/actool/_PartialAppManifest.items
 /Users/wouterlefebvre/Projects/DevProg_News/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/actool/_BundleResourceWithLogicalName.items
 /Users/wouterlefebvre/Projects/DevProg_News/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/optimized/
+/Users/wouterlefebvre/Projects/DevProg_News/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/optimized/wired.png
